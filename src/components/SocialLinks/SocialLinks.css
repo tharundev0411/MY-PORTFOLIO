@@ -1,0 +1,54 @@
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--text-color);
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background: var(--gradient-primary);
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -40px;
+  background: var(--bg-color-light);
+  color: var(--text-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
+}
+
+.social-icon:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  bottom: -45px;
+  transform: translateY(-5px);
+}

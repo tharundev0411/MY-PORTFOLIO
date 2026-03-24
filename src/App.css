@@ -1,0 +1,31 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+}
+
+.footer {
+  margin-top: 5rem;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background: rgba(240, 234, 214, 0.9);
+}
+
+.footer p {
+  color: var(--text-color);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.footer-built {
+  font-size: 0.85rem;
+  color: var(--text-color-muted) !important;
+  font-weight: 400 !important;
+}
