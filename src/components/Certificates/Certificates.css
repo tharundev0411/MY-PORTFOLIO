@@ -123,25 +123,33 @@
 }
 
 .modal-image-container {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  background: var(--bg-color-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-img {
   width: 100%;
-  height: auto;
+  max-width: 300px;
+  /* controls width */
+  max-height: 30vh;
+  /* controls height relative to screen */
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
+  /* center the image */
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
   .modal-overlay {
     padding: 1rem;
   }
+
   .modal-content {
     padding: 1.5rem;
   }
+
   .modal-title {
     font-size: 1.4rem;
   }
