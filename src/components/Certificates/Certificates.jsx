@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Award } from 'lucide-react';
 import './Certificates.css';
-
+import cybercert from "../../assets/certificates/cybercert.jpeg";
+import reversecodingcert from "../../assets/certificates/reversecodingcert.jpeg";
 const Certificates = () => {
   const [selectedCert, setSelectedCert] = useState(null);
 
@@ -30,7 +31,7 @@ const Certificates = () => {
     {
       title: 'Reverse Coding X (HACKATHON)',
       issuer: 'IMC & IIT Madras',
-      image: 'C:\Users\User\OneDrive\Desktop\tharun_porfolio\src\assets\certificates\reversecodingxiitm.jpeg'
+      image: reversecodingcert
     },
     {
       title: 'Cyber',
@@ -40,7 +41,7 @@ const Certificates = () => {
     {
       title: 'Jaipur Cyberthon 2K25',
       issuer: 'Gyan Vihar University',
-      image: 'C:\Users\User\OneDrive\Desktop\tharun_porfolio\src\assets\certificates\cyberthongyanvihar.jpeg'
+      image: cybercert
     }
   ];
 
