@@ -8,12 +8,12 @@ import './SocialLinks.css';
 const SocialLinks = ({ className = '' }) => {
   const links = [
     { icon: <FaGithub />, url: 'https://github.com/tharundev0411', name: 'GitHub' },
-    { icon: <FaLinkedin />, url: 'https://linkedin.com/in/tharun', name: 'LinkedIn' },
+    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/tharun-dev-bb34ab32a', name: 'LinkedIn' },
     { icon: <FaEnvelope />, url: 'mailto:kit28.24bam060@gmail.com ', name: 'Email' },
     { icon: <SiLeetcode />, url: 'https://leetcode.com/u/tharundev04/', name: 'LeetCode' },
     { icon: <SiCodechef />, url: 'https://www.codechef.com/users/kit28aiml060', name: 'CodeChef' },
     { icon: <SiCodeforces />, url: 'https://codeforces.com/profile/tharundev4', name: 'Codeforces' },
-    { icon: <FaChartBar />, url: 'https://codolio.com/profile/tharundev04 ', name: 'Codolio' },
+    { icon: <FaChartBar />, url: 'https://codolio.com/profile/tharundev04', name: 'Codolio' },
   ];
 
   const containerVariants = {

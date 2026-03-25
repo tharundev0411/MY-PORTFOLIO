@@ -30,7 +30,7 @@ const Certificates = () => {
     {
       title: 'Reverse Coding X (HACKATHON)',
       issuer: 'IMC & IIT Madras',
-      image: 'https://via.placeholder.com/800x600?text=Full+Stack+Certificate'
+      image: 'C:\Users\User\OneDrive\Desktop\tharun_porfolio\src\assets\certificates\reversecodingxiitm.jpeg'
     },
     {
       title: 'Cyber',
@@ -40,7 +40,7 @@ const Certificates = () => {
     {
       title: 'Jaipur Cyberthon 2K25',
       issuer: 'Gyan Vihar University',
-      image: 'https://via.placeholder.com/800x600?text=Full+Stack+Certificate'
+      image: 'C:\Users\User\OneDrive\Desktop\tharun_porfolio\src\assets\certificates\cyberthongyanvihar.jpeg'
     }
   ];
 
