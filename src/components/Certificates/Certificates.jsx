@@ -4,6 +4,14 @@ import { X, Award } from 'lucide-react';
 import './Certificates.css';
 import cybercert from "../../assets/certificates/cybercert.jpeg";
 import reversecodingcert from "../../assets/certificates/reversecodingcert.jpeg";
+import pythoness1 from "../../assets/certificates/pythoness1.jpeg";
+import pythoness2 from "../../assets/certificates/pythoness2.jpeg";
+import introtocyber from "../../assets/certificates/introtocyber.jpeg";
+import simplilearnsql from "../../assets/certificates/simplilearnsql.jpeg";
+import scalerosf from "../../assets/certificates/scalerosf.jpeg";
+import scalersql from "../../assets/certificates/scalersql.jpeg";
+import deloittedajs from "../../assets/certificates/deloittedajs.jpeg";
+import ncsrchack from "../../assets/certificates/ncsrchack.jpeg";
 const Certificates = () => {
   const [selectedCert, setSelectedCert] = useState(null);
 
@@ -11,7 +19,7 @@ const Certificates = () => {
     {
       title: 'Get Start with Python',
       issuer: 'COURSERA',
-      image: 'https://via.placeholder.com/800x600?text=Machine+Learning+Certificate'
+      image: pythoness1
     },
     {
       title: 'Basic of Data Structure and Algorithms',
@@ -21,12 +29,12 @@ const Certificates = () => {
     {
       title: 'Python Essential 1 & 2',
       issuer: 'CISCO',
-      image: 'https://via.placeholder.com/800x600?text=Full+Stack+Certificate'
+      image: pythoness2
     },
     {
       title: 'Introduction to cyber Security',
       issuer: 'CISCO',
-      image: 'https://via.placeholder.com/800x600?text=Full+Stack+Certificate'
+      image: introtocyber
     },
     {
       title: 'Reverse Coding X (HACKATHON)',
@@ -34,14 +42,34 @@ const Certificates = () => {
       image: reversecodingcert
     },
     {
-      title: 'Cyber',
+      title: 'NCSRC',
       issuer: 'IIT Madras',
-      image: 'https://via.placeholder.com/800x600?text=Full+Stack+Certificate'
+      image: ncsrchack
     },
     {
       title: 'Jaipur Cyberthon 2K25',
       issuer: 'Gyan Vihar University',
       image: cybercert
+    },
+    {
+      title: 'Data Analytics Job Simulation',
+      issuer: 'Deloitte',
+      image: deloittedajs
+    },
+    {
+      title: 'Operating System Cource',
+      issuer: 'Scaler',
+      image: scalerosf
+    },
+    {
+      title: 'SQL Cource',
+      issuer: 'Scaler',
+      image: scalersql
+    },
+    {
+      title: 'Introduction to SQL',
+      issuer: 'Simplilearn',
+      image: simplilearnsql
     }
   ];
 
