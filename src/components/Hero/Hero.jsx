@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Download, Rocket } from 'lucide-react';
 import SocialLinks from '../SocialLinks/SocialLinks';
 import './Hero.css';
+import profileImg from '../../assets/pfp/Tharunpfp.jpeg';
 
 const Hero = () => {
   return (
@@ -55,7 +56,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1 }}
           >
-            <a href="/resume.pdf" download className="btn btn-primary group">
+            <a href="/resume/Tharundev_resume.pdf" download className="btn btn-primary group">
               <Download size={20} className="group-hover:translate-y-1 transition-transform" />
               Download Resume
             </a>
@@ -83,7 +84,7 @@ const Hero = () => {
         >
           <div className="profile-img-wrapper glow-effect">
             <img
-              src="https://via.placeholder.com/350"
+              src={profileImg}
               alt="Tharun"
               className="profile-img"
             />
