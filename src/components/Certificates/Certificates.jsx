@@ -6,7 +6,7 @@ import cybercert from "../../assets/certificates/cybercert.jpeg";
 import reversecodingcert from "../../assets/certificates/reversecodingcert.jpeg";
 import pythoness1 from "../../assets/certificates/pythoness1.jpeg";
 import pythoness2 from "../../assets/certificates/pythoness2.jpeg";
-import introtocyber from "../../assets/certificates/introtocyber.jpeg";
+import introtoycyber from "../../assets/certificates/introtoycyber.jpeg";
 import simplilearnsql from "../../assets/certificates/simplilearnsql.jpeg";
 import scalerosf from "../../assets/certificates/scalerosf.jpeg";
 import scalersql from "../../assets/certificates/scalersql.jpeg";
@@ -34,7 +34,7 @@ const Certificates = () => {
     {
       title: 'Introduction to cyber Security',
       issuer: 'CISCO',
-      image: introtocyber
+      image: introtoycyber
     },
     {
       title: 'Reverse Coding X (HACKATHON)',
